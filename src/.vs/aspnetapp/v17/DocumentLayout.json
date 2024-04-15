@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "aspnetapp\\Program.cs",
               "ToolTip": "D:\\JenkinsTest\\src\\aspnetapp\\Program.cs",
               "RelativeToolTip": "aspnetapp\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBkAAABfAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA+wBkAAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T05:26:13.845Z",
               "EditorCaption": ""
@@ -52,15 +52,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "aspnetapp-testing",
+              "Title": "aspnetapp-testing.csproj",
               "DocumentMoniker": "D:\\JenkinsTest\\src\\aspnetapp-testing\\aspnetapp-testing.csproj",
               "RelativeDocumentMoniker": "aspnetapp-testing\\aspnetapp-testing.csproj",
               "ToolTip": "D:\\JenkinsTest\\src\\aspnetapp-testing\\aspnetapp-testing.csproj",
               "RelativeToolTip": "aspnetapp-testing\\aspnetapp-testing.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-11T05:22:24.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T05:22:24.249Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "ToolTip": "D:\\JenkinsTest\\src\\aspnetapp-testing\\aspnetapp-testing.csproj",
               "RelativeToolTip": "aspnetapp-testing\\aspnetapp-testing.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-11T05:22:32.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T05:22:32.266Z"
             },
             {
               "$type": "Document",
@@ -83,8 +81,7 @@
               "ToolTip": "D:\\JenkinsTest\\src\\aspnetapp\\aspnetapp.csproj",
               "RelativeToolTip": "aspnetapp\\aspnetapp.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-11T05:21:57.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T05:21:57.286Z"
             },
             {
               "$type": "Document",
@@ -96,8 +93,7 @@
               "RelativeToolTip": "aspnetapp\\Startup.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAzwAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T05:21:12.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T05:21:12.09Z"
             }
           ]
         }
