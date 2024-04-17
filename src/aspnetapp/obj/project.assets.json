@@ -360,7 +360,7 @@
           }
         }
       },
-      "prometheus-net/8.0.1": {
+      "prometheus-net/8.2.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Http": "3.1.0",
@@ -377,10 +377,10 @@
           }
         }
       },
-      "prometheus-net.AspNetCore/8.0.1": {
+      "prometheus-net.AspNetCore/8.2.1": {
         "type": "package",
         "dependencies": {
-          "prometheus-net": "8.0.1"
+          "prometheus-net": "8.2.1"
         },
         "compile": {
           "lib/net6.0/Prometheus.AspNetCore.dll": {
@@ -405,16 +405,25 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "System.Text.Encodings.Web/4.5.0": {
+      "System.Text.Encodings.Web/8.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
             "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll": {
+            "assetType": "runtime",
+            "rid": "browser"
           }
         }
       }
@@ -743,10 +752,10 @@
         "microsoft.visualstudio.web.browserlink.nuspec"
       ]
     },
-    "prometheus-net/8.0.1": {
-      "sha512": "A9sOtQB2gEhujBxPKw+KcGScBiPvBmy4lYVM5OlETMj4xjVD5r/ixIg52HHg2P0lcImJTpfeWnD0/9tpQsRQTA==",
+    "prometheus-net/8.2.1": {
+      "sha512": "3wVgdEPOCBF752s2xps5T+VH+c9mJK8S8GKEDg49084P6JZMumTZI5Te6aJ9MQpX0sx7om6JOnBpIi7ZBmmiDQ==",
       "type": "package",
-      "path": "prometheus-net/8.0.1",
+      "path": "prometheus-net/8.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -760,14 +769,14 @@
         "lib/netstandard2.0/Prometheus.NetStandard.dll",
         "lib/netstandard2.0/Prometheus.NetStandard.xml",
         "prometheus-net-logo.png",
-        "prometheus-net.8.0.1.nupkg.sha512",
+        "prometheus-net.8.2.1.nupkg.sha512",
         "prometheus-net.nuspec"
       ]
     },
-    "prometheus-net.AspNetCore/8.0.1": {
-      "sha512": "KYM1abaC+V4KwF+pdJOxNsrec7AIORqRYFC5idemIKyQWmmI7v+WMu45mTR2CZV2CPoUQXuAP4ufNBK6ce1v0w==",
+    "prometheus-net.AspNetCore/8.2.1": {
+      "sha512": "/4TfTvbwIDqpaKTiWvEsjUywiHYF9zZvGZF5sK15avoDsUO/WPQbKsF8TiMaesuphdFQPK2z52P0zk6j26V0rQ==",
       "type": "package",
-      "path": "prometheus-net.aspnetcore/8.0.1",
+      "path": "prometheus-net.aspnetcore/8.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -775,7 +784,7 @@
         "lib/net6.0/Prometheus.AspNetCore.dll",
         "lib/net6.0/Prometheus.AspNetCore.xml",
         "prometheus-net-logo.png",
-        "prometheus-net.aspnetcore.8.0.1.nupkg.sha512",
+        "prometheus-net.aspnetcore.8.2.1.nupkg.sha512",
         "prometheus-net.aspnetcore.nuspec"
       ]
     },
@@ -808,30 +817,47 @@
         "version.txt"
       ]
     },
-    "System.Text.Encodings.Web/4.5.0": {
-      "sha512": "Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g==",
+    "System.Text.Encodings.Web/8.0.0": {
+      "sha512": "yev/k9GHAEGx2Rg3/tU6MQh4HGBXJs70y7j1LaM1i/ER9po+6nnQ6RRqTJn1E7Xu0fbIFK80Nh5EoODxrbxwBQ==",
       "type": "package",
-      "path": "system.text.encodings.web/4.5.0",
+      "path": "system.text.encodings.web/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/netstandard1.0/System.Text.Encodings.Web.dll",
-        "lib/netstandard1.0/System.Text.Encodings.Web.xml",
+        "buildTransitive/net461/System.Text.Encodings.Web.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Text.Encodings.Web.targets",
+        "lib/net462/System.Text.Encodings.Web.dll",
+        "lib/net462/System.Text.Encodings.Web.xml",
+        "lib/net6.0/System.Text.Encodings.Web.dll",
+        "lib/net6.0/System.Text.Encodings.Web.xml",
+        "lib/net7.0/System.Text.Encodings.Web.dll",
+        "lib/net7.0/System.Text.Encodings.Web.xml",
+        "lib/net8.0/System.Text.Encodings.Web.dll",
+        "lib/net8.0/System.Text.Encodings.Web.xml",
         "lib/netstandard2.0/System.Text.Encodings.Web.dll",
         "lib/netstandard2.0/System.Text.Encodings.Web.xml",
-        "system.text.encodings.web.4.5.0.nupkg.sha512",
+        "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.xml",
+        "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.xml",
+        "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.8.0.0.nupkg.sha512",
         "system.text.encodings.web.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
+        "useSharedDesignerContext.txt"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.VisualStudio.Web.BrowserLink >= 2.2.0",
-      "prometheus-net.AspNetCore >= 8.0.1"
+      "System.Text.Encodings.Web >= 8.0.0",
+      "prometheus-net.AspNetCore >= 8.2.1"
     ]
   },
   "packageFolders": {
@@ -888,9 +914,13 @@
             "target": "Package",
             "version": "[2.2.0, )"
           },
+          "System.Text.Encodings.Web": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
           "prometheus-net.AspNetCore": {
             "target": "Package",
-            "version": "[8.0.1, )"
+            "version": "[8.2.1, )"
           }
         },
         "imports": [
