@@ -47,16 +47,16 @@ pipeline {
             }
         }
 
-        stage('Docker Push') {
-            steps {
-                script {
+        // stage('Docker Push') {
+        //     steps {
+        //         script {
                     
-                    docker.withRegistry('https://index.docker.io/v2/', 'DockerHub') {
-                        // Push your Docker image
-                        docker.image("${IMAGE_NAME}:${IMAGE_TAG}").push()
-                    }
-                }
-            }
-        }
+        //             docker.withRegistry('https://index.docker.io/v2/', 'DockerHub') {
+        //                 // Push your Docker image
+        //                 docker.image("${IMAGE_NAME}:${IMAGE_TAG}").push()
+        //             }
+        //         }
+        //     }
+        // }
     }
 }
